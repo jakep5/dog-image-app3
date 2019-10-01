@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div role="form" class="formHolder">
+            <h1>Dog Image Generator</h1>
+            <p>Choose what breed to display!:</p>
+            <form id="dogBreed">
+                <input type="text" name="breed" id="breed" placeholder="poodle" required>
+            </form>
+            <button type="submit" form="dogBreed" value="submit">Submit</button>
+        </div>
+        <div role="imageWrapper" class="imageWrapper">
+            <div role="images" class="images">
+                <h2>Here are your images:</h2>
+            </div>
+        </div>
+
+    </body>
+</html>
