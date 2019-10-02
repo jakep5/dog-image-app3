@@ -20,8 +20,8 @@ function displayResults(responseJson) {
             alert ('The input breed could not be found')
         }
         else {
-        $("div.images").append (
-            `<img src="${responseJson.message}" class="dogImages">`
+        $(document.getElementById("dogImage")).replaceWith (
+            `<img src="${responseJson.message}" class="dogImages" id="dogImage">`
 
         )
         };
